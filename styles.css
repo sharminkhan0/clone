@@ -12,6 +12,7 @@ body{
     position: relative;
     background: #f0f0ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
 }
 
 .navbar{
