@@ -1,5 +1,4 @@
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,7 +10,7 @@
 body{
     position: relative;
     background: #f0f0ff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .navbar{
@@ -23,7 +22,7 @@ body{
     background: #ffff;
     display: flex;
     align-items: center;
-    padding: 0 2.5vw;
+    padding: 0px 10px 0px 10px;
 }
 
 .toggle-btn{
@@ -50,9 +49,9 @@ body{
     top: 100%;
 }
 .logo{
-    height: 70px;
-    margin: 20px 30px ;
-    margin-bottom: 15px;
+    height: 100px;
+    margin: 50px 30px ;
+    margin-bottom: 25px;
     background: #ffff;
     position: absolute;
 }
@@ -63,7 +62,7 @@ max-width: 500px;
 width: 500%;
 height: 30px;
 display: flex;
-margin-left: 30px;
+margin-left: 100px;
 }
 
 .search-bar{
@@ -78,14 +77,9 @@ margin-left: 30px;
 }
 
 .search-btn{
-    width: 100%;
-    height: 100%;
+    width: 22%;
     background: #f0f0f0;
     border: 1px solid #dbdbdbdb;
-    padding: px 10;
-    border-left: none;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px; ;
 }
 
 .search-btn img{
@@ -96,11 +90,8 @@ margin-left: 30px;
     color:rgb(58, 58, 58)
 }
 
-.user-options{
-    height: 100px;
-    display: flex;
-    margin-top: 90px;
-    margin-left: 50px;
+.user-options, .user-dp {
+    margin-left: 20px;
     align-items: center;
 }
 
@@ -116,21 +107,6 @@ margin-left: 30px;
     margin-bottom: 70px;
 }
 
-.user-dp{
-    cursor: pointer;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.user-dp img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
 /* side- bar */
 
 .side-bar{
@@ -143,7 +119,7 @@ margin-left: 30px;
     background: #ffff;
     padding: 30px;
 }
-
+ 
 .links{
     display: block;
     width: 100%;
