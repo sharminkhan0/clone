@@ -25,35 +25,13 @@ body{
     padding: 0px 10px 0px 10px;
 }
 
-.toggle-btn{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    cursor: pointer;
-}
-
-.toggle-btn span{
-    position: absolute;
-    width: 100%;
-    height: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #86868697;
-}
-
-.toggle-btn span:nth-child(1){
-    top: 0;
-}
-
-.toggle-btn span:nth-child(3){
-    top: 100%;
-}
 .logo{
     height: 100px;
     margin: 50px 30px ;
     margin-bottom: 25px;
     background: #ffff;
     position: absolute;
+
 }
 
 .search-box{
@@ -62,7 +40,7 @@ max-width: 500px;
 width: 500%;
 height: 30px;
 display: flex;
-margin-left: 100px;
+margin-left: 150px;
 }
 
 .search-bar{
@@ -95,16 +73,11 @@ margin-left: 100px;
     align-items: center;
 }
 
-.user-options .icon{
-    height: 10%;
-    margin-right: 10px;
-    cursor: pointer;
-    size: 5px;
+.user-options .icon {
     align-items: center;
     position: flex;
     height: 80%;
-    margin-top: 1px;
-    margin-bottom: 70px;
+    margin: 1px 10px 70px 0px;
 }
 
 /* side- bar */
