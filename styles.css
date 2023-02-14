@@ -140,7 +140,7 @@ margin-left: 150px;
     
     /* Horizontal Scrollable Menu*/
 
-    .scrollmenu {
+    /*.scrollmenu {
         position: relative;
         top: 80px;
         left: 240px;
@@ -164,14 +164,14 @@ margin-left: 150px;
       
       .scrollmenu a:hover {
         background-color: #e1e1e1;
-      }
+      }*/
 
     /* filter */
     
     .filters{
         position: fixed;
         left: 250px;
-        top: calc(100% - -250px);
+        top: 80px;
         height: 100px;
         background: #ffff;
         border-top: 1px solid #dbdbdbdb;
