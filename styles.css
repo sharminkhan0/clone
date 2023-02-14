@@ -140,22 +140,30 @@ margin-left: 150px;
     
     /* Horizontal Scrollable Menu*/
 
-    div.scrollmenu {
-        background-color: #333;
+    .scrollmenu {
+        position: relative;
+        top: 80px;
+        left: 240px;
+        max-width: 1280px;
+        width: 100%;
+        height: calc(100vh -250px);
+        background: #ffffff;
+        padding: 5px;
+        
         overflow: auto;
         white-space: nowrap;
       }
       
-      div.scrollmenu a {
+      .scrollmenu a {
         display: inline-block;
-        color: white;
+        color: rgba(49, 44, 44);
         text-align: center;
         padding: 14px;
         text-decoration: none;
       }
       
-      div.scrollmenu a:hover {
-        background-color: #777;
+      .scrollmenu a:hover {
+        background-color: #e1e1e1;
       }
 
     /* filter */
@@ -164,7 +172,7 @@ margin-left: 150px;
         position: fixed;
         left: 250px;
         top: calc(100% - -250px);
-        height: 60px;
+        height: 100px;
         background: #ffff;
         border-top: 1px solid #dbdbdbdb;
         border-bottom: 1px solid #dbdbdbdb;
