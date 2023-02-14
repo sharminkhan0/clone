@@ -171,26 +171,30 @@ margin-left: 150px;
     .filters{
         position: fixed;
         left: 250px;
-        top: 80px;
+        top: 70px;
         height: 100px;
         background: #ffff;
-        border-top: 1px solid #dbdbdbdb;
-        border-bottom: 1px solid #dbdbdbdb;
-        padding: 0 20px;
+        padding: 0 5px;
         display: flex;
         align-items: center;
         overflow-x: auto;
+        
     }
     
     .filter-options{
         flex: 0 0 auto;
-        padding: 10px 20px;
+        padding: 8px 20px;
         border-radius: 50px;
-        background: #f0f0f0;
-        border: 1px solid #dbdbdbdb;
+        border: 1px solid #faf8f8db;
         text-transform: capitalize;
-        margin-right: 10px;
-        color: #242424;
+        margin-right: 11.9px;
+        color: #474646;
         font-size: 15px;
         cursor: pointer;
+        overflow: auto;
     }
+
+    .filter-options:hover {
+        background-color: #e1e1e1;
+      }
+        
