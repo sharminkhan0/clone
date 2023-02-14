@@ -84,8 +84,8 @@ margin-left: 150px;
 
 .user-dp{
     cursor: pointer;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 600px;
@@ -138,6 +138,26 @@ margin-left: 150px;
         margin: 17px 0;
     }
     
+    /* Horizontal Scrollable Menu*/
+
+    div.scrollmenu {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+      }
+      
+      div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+      }
+      
+      div.scrollmenu a:hover {
+        background-color: #777;
+      }
+
     /* filter */
     
     .filters{
@@ -151,8 +171,18 @@ margin-left: 150px;
         padding: 0 20px;
         display: flex;
         align-items: center;
+        overflow-x: auto;
     }
     
     .filter-options{
         flex: 0 0 auto;
+        padding: 10px 20px;
+        border-radius: 50px;
+        background: #f0f0f0;
+        border: 1px solid #dbdbdbdb;
+        text-transform: capitalize;
+        margin-right: 10px;
+        color: #242424;
+        font-size: 15px;
+        cursor: pointer;
     }
